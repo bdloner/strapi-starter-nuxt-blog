@@ -64,7 +64,7 @@ export default {
     }
   },
   /*
-   ** Build configuration
+   ** Build configuration  process.env.API_URL +
    */
   build: {
     /*
