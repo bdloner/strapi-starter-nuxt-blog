@@ -31,9 +31,10 @@ export default {
       prefetch: true,
       query: articlesQuery,
       variables () {
-        return { id: parseInt(this.$route.params.id) }
+        return { id:  parseInt(this.$route.params.id)}
       }
     }
   }
 }
+// parseInt(this.$route.params.id)
 </script>

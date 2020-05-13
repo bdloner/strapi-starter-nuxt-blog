@@ -37,4 +37,5 @@ export default {
     }
   }
 }
+// parseInt(this.$route.params.id)
 </script>

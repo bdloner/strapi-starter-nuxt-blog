@@ -2,6 +2,7 @@ query Articles {
   articles {
     id
     title
+    slug
     content
     image {
       url
